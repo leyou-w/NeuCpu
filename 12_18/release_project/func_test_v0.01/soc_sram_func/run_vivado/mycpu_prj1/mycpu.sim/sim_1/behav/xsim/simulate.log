@@ -1,0 +1,38 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+==============================================================
+Test begin!
+--------------------------------------------------------------
+[   2115 ns] Error!!! soc_clk posedge time:    2115 ns
+    reference: PC = 0xbfc006bc, wb_rf_wnum = 0x04, wb_rf_wdata = 0xbfaff008
+    mycpu    : PC = 0xbfc006bc, wb_rf_wnum = 0x04, wb_rf_wdata = 0xxxxxfxxX
+--------------------------------------------------------------
+$finish called at time : 2155 ns : File "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 161
+--------------------------------------------------------------
+[   2155 ns] Error!!! soc_clk posedge time:    2155 ns
+    reference: PC = 0xbfc006cc, wb_rf_wnum = 0x11, wb_rf_wdata = 0xbfaff010
+    mycpu    : PC = 0xbfc006cc, wb_rf_wnum = 0x11, wb_rf_wdata = 0xxxxxfxXx
+--------------------------------------------------------------
+$finish called at time : 2195 ns : File "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 161
+--------------------------------------------------------------
+[   2245 ns] Error!!! soc_clk posedge time:    2245 ns
+    reference: PC = 0xbfc006f0, wb_rf_wnum = 0x09, wb_rf_wdata = 0xbfc00704
+    mycpu    : PC = 0xbfc006f0, wb_rf_wnum = 0x09, wb_rf_wdata = 0x00000706
+--------------------------------------------------------------
+$finish called at time : 2285 ns : File "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 161
+--------------------------------------------------------------
+[   2335 ns] Error!!! soc_clk posedge time:    2335 ns
+    reference: PC = 0xbfc006f8, wb_rf_wnum = 0x19, wb_rf_wdata = 0x9fc00704
+    mycpu    : PC = 0xbfc00714, wb_rf_wnum = 0x19, wb_rf_wdata = 0xbfc00000
+--------------------------------------------------------------
+$finish called at time : 2375 ns : File "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 161
+--------------------------------------------------------------
+[   5895 ns] Error!!! soc_clk posedge time:    5895 ns
+    reference: PC = 0x9fc05100, wb_rf_wnum = 0x10, wb_rf_wdata = 0x00000001
+    mycpu    : PC = 0xbfc00ca4, wb_rf_wnum = 0x04, wb_rf_wdata = 0xbfaf0000
+--------------------------------------------------------------
+$finish called at time : 5935 ns : File "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 161

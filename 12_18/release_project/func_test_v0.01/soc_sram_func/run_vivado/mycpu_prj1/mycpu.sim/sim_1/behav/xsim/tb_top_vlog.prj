@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib" --include "../../../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/data_ram/sim/data_ram.v" \
+"../../../../../../rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/CTRL.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/EX.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/ID.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/IF.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/MEM.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/WB.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/mul/add.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/alu.v" \
+"../../../../../../rtl/BRIDGE/bridge_1x2.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/decoder_5_32.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/decoder_6_64.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/div.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/mul/fa.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/mmu.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/mul/mul.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/mycpu_core.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/mycpu_top.v" \
+"../../../../../../../../../../../22-fall-CPUSample/SampleCPU/lib/regfile.v" \
+"../../../../../../rtl/soc_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

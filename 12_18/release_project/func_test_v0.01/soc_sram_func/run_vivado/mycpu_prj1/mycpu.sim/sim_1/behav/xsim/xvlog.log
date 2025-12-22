@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2458] undeclared symbol stallreq_for_ex, assumed default net type wire [D:/Computer_system/22-fall-CPUSample/SampleCPU/EX.v:114]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/mul/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2458] undeclared symbol conf_we, assumed default net type wire [D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/CONFREG/confreg.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/decoder_5_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/decoder_6_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/mul/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/mul/mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/mycpu_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_core
+INFO: [VRFC 10-2458] undeclared symbol stallreq, assumed default net type wire [D:/Computer_system/22-fall-CPUSample/SampleCPU/mycpu_core.v:50]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/22-fall-CPUSample/SampleCPU/lib/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

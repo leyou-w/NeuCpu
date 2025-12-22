@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Dec 10 15:01:22 2025
+# Process ID: 35148
+# Current directory: D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1
+# Command line: vivado.exe -log clk_pll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_pll.tcl
+# Log file: D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/clk_pll.vds
+# Journal file: D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_pll.tcl -notrace
+Command: synth_design -top clk_pll -part xc7a200tfbg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 57848 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 833.039 ; gain = 234.191
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'clk_pll' [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v:71]
+INFO: [Synth 8-6157] synthesizing module 'clk_pll_clk_wiz' [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32937]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (1#1) [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32937]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61416]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 9 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE bound to: 18 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 9 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (2#1) [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61416]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [D:/Computer_system/Software/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'clk_pll_clk_wiz' (4#1) [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_pll' (5#1) [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 909.145 ; gain = 310.297
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 909.145 ; gain = 310.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 909.145 ; gain = 310.297
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 909.145 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_ooc.xdc] for cell 'inst'
+Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_board.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_board.xdc] for cell 'inst'
+Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/clk_pll_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/clk_pll_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 922.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 922.617 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 922.617 ; gain = 323.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 922.617 ; gain = 323.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 922.617 ; gain = 323.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 922.617 ; gain = 323.770
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-729] Failed to open 'D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/.Xil/Vivado-35148-laptop//incrSyn/4231364103/u/g//global_name.straps.rtd': No such file or directory
+ERROR: [Synth 8-787] cannot access rtd files in 'D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/.Xil/Vivado-35148-laptop/realtime/tmp//', this is a FATAL ERROR! Please make sure the directory is readable and writable by the program and do not delete files from this directory while the program is running.
+ERROR: [Synth 8-787] cannot access rtd files in 'D:/Computer_system/nscscc2022_group_qualifier_submission/nscscc2022_group_qualifier_submission/release_project/func_test_v0.01/soc_sram_func/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/.Xil/Vivado-35148-laptop/realtime/tmp//', this is a FATAL ERROR! Please make sure the directory is readable and writable by the program and do not delete files from this directory while the program is running.
